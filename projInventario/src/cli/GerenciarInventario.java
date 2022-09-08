@@ -159,7 +159,7 @@ public class GerenciarInventario {
                         Integer.toString(p.getQtd()), Double.toString(p.getPreco()), Double.toString(soma));
             }
             System.out.println("------------------------------------------------");
-            System.out.printf("Patrimonio Total: %6.2f \n", patrimonio);
+            System.out.printf("Patrimonio Total: %6.2f", patrimonio);
             System.out.println("------------------------------------------------\n");
         }else {
             System.out.println("Nao contem item no inventario.");
